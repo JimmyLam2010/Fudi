@@ -1,0 +1,114 @@
+@import url(reset.css);
+.header {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0.2rem;
+  padding-bottom: 0.8rem; }
+  .header .logo {
+    width: 0.67rem;
+    height: 0.57rem; }
+  .header .log-in,
+  .header .sign-up {
+    margin-top: 0.3rem; }
+    .header .log-in a,
+    .header .sign-up a {
+      text-transform: uppercase;
+      font-size: 0.14rem;
+      color: #ffffff; }
+  .header .dropdown-icon {
+    margin-top: 0.3rem;
+    cursor: pointer; }
+    .header .dropdown-icon img {
+      width: 0.14rem;
+      height: 0.1rem; }
+  .header .banner-text {
+    width: fit-content;
+    margin: 0.9rem auto 0;
+    text-align: center; }
+    .header .banner-text .text-one {
+      font-size: 0.36rem;
+      font-family: "Times New Roman";
+      font-weight: bold;
+      font-style: italic;
+      text-align: center;
+      color: #ffffff; }
+    .header .banner-text .text-two {
+      font-size: 1rem;
+      text-align: center;
+      color: #ffffff; }
+    .header .banner-text .start {
+      display: inline-block;
+      margin: 0 auto;
+      font-size: 0.18rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #ffffff;
+      border: 0.03rem solid #ffffff;
+      padding: 0.25rem 0.3rem; }
+    .header .banner-text .text-three {
+      font-size: 0.14rem;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 0.4rem; }
+      .header .banner-text .text-three span {
+        text-decoration: underline; }
+
+.features {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .features .feature {
+    text-align: center; }
+    .features .feature img {
+      width: 1.07rem;
+      height: 1.07rem; }
+    .features .feature h6 {
+      font-size: 0.18rem;
+      font-weight: bold;
+      margin-top: 0.2rem; }
+    .features .feature hr {
+      width: 0.88rem;
+      height: 0.01rem;
+      border: none;
+      background-color: #f57365;
+      margin-top: 0.1rem;
+      margin-bottom: 0; }
+    .features .feature p {
+      font-size: 0.16rem;
+      font-weight: lighter;
+      margin-top: 0.2rem; }
+
+.app {
+  background-color: #f7f7f7;
+  padding-top: 1rem; }
+  .app .phone img {
+    width: 100%;
+    height: 100%; }
+  .app .app-intro h6 {
+    font-size: 0.18rem;
+    font-weight: bold; }
+  .app .app-intro hr {
+    width: 0.88rem;
+    height: 0.01rem;
+    border: none;
+    background-color: #f57365;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+    margin-left: 0; }
+  .app .app-intro p {
+    font-size: 0.16rem;
+    font-weight: lighter;
+    line-height: 0.24rem;
+    margin-top: 0.2rem; }
+  .app .app-intro .app-store {
+    width: 1.12rem;
+    height: 0.39rem;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem; }
+  .app .app-intro .google-play {
+    width: 1.2rem;
+    height: 0.39rem;
+    margin-top: 0.3rem; }
+
+/*# sourceMappingURL=index.css.map */
