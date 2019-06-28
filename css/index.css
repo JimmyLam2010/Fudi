@@ -8,16 +8,12 @@
   .header .logo {
     width: 0.67rem;
     height: 0.57rem; }
-  .header .log-in,
-  .header .sign-up {
-    margin-top: 0.3rem; }
-    .header .log-in a,
-    .header .sign-up a {
-      text-transform: uppercase;
-      font-size: 0.14rem;
-      color: #ffffff; }
+  .header .log-in a,
+  .header .sign-up a {
+    text-transform: uppercase;
+    font-size: 0.14rem;
+    color: #ffffff; }
   .header .dropdown-icon {
-    margin-top: 0.3rem;
     cursor: pointer; }
     .header .dropdown-icon img {
       width: 0.14rem;
