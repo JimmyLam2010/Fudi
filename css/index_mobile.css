@@ -1,0 +1,62 @@
+@import url(reset.css);
+.header {
+  background-color: #582349;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem; }
+  .header .page-title {
+    font-size: 0.4rem;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: center; }
+  .header .header-button a {
+    width: 100%;
+    height: 100%; }
+    .header .header-button a img {
+      width: 100%;
+      height: 100%; }
+
+body {
+  background-image: url("../images/banner.png");
+  text-align: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 1.6rem; }
+  body img {
+    width: 2.56rem;
+    height: 2.19rem; }
+  body .text-one {
+    font-size: 0.36rem;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1.95rem; }
+  body .text-two {
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff; }
+  body .start {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 0.18rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0.03rem solid #ffffff;
+    padding: 0.2rem 0.8rem;
+    transition: 0.5s;
+    margin-top: 0.35rem; }
+  body .start:hover {
+    color: #333333;
+    background-color: #ffffff; }
+  body .text-three {
+    font-size: 0.14rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0.4rem; }
+    body .text-three span {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=index_mobile.css.map */

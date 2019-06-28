@@ -1,0 +1,60 @@
+@import "common.scss";
+
+body{
+    background-image: url("../images/banner.png");
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-top: 1.6rem;
+
+    img{
+        width: 2.56rem;
+        height: 2.19rem;
+    }
+    
+    .text-one{
+        font-size: 0.36rem;
+        font-family: "Times New Roman";
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 1.95rem;
+    }
+    
+    .text-two{
+        font-size: 1rem;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .start{
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 0.18rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffffff;
+        border: 0.03rem solid #ffffff;
+        padding: 0.2rem 0.8rem;
+        transition: 0.5s;
+        margin-top: 0.35rem;
+    }
+
+    .start:hover{
+        color: #333333;
+        background-color: #ffffff;
+    }
+
+    .text-three{
+        font-size: 0.14rem;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0.4rem;
+
+        span{
+            text-decoration: underline;
+        }
+    }
+}
