@@ -60,6 +60,12 @@
             color: #ffffff;
             border: 0.03rem solid #ffffff;
             padding: 0.25rem 0.3rem;
+            transition: 0.5s;
+        }
+
+        .start:hover{
+            color: #333333;
+            background-color: #ffffff;
         }
 
         .text-three{
@@ -74,15 +80,6 @@
             }
         }
     }
-}
-
-@mixin title-line {
-    width: 0.88rem;
-    height: 0.01rem;
-    border: none;
-    background-color: #f57365;
-    margin-top: 0.1rem;
-    margin-bottom: 0;
 }
 
 .features{
@@ -238,6 +235,7 @@
                 height: 100%;
                 background-size: cover;
                 padding-top: 0.75rem;
+                transition: 0.5s;
 
                 p{
                     text-align: center;
@@ -254,6 +252,11 @@
                     font-size: 0.36rem;
                     font-weight: bold;
                 }
+            }
+
+            a:hover{
+                box-shadow: 5px 5px 5px #333333;
+                transform: translate(-5px, -5px);
             }
         }
 
